@@ -2,13 +2,13 @@
             --bg: #ffffff;
             --surface: #f8fafc;
             --surface2: #e2e8f0;
-            --orange: #e65c00;
-            --orange-glow: rgba(230, 92, 0, 0.1);
+            --orange: #004b87;
+            --orange-glow: rgba(0, 75, 135, 0.1);
             --steel: #64748b;
             --steel-light: #475569;
             --white: #0f172a;
             --border: rgba(0, 0, 0, 0.08);
-            --border-hot: rgba(230, 92, 0, 0.25);
+            --border-hot: rgba(0, 75, 135, 0.25);
             --blue: #0f172a;
         }
 
@@ -27,7 +27,7 @@
         body {
             background: var(--bg);
             color: var(--white);
-            font-family: 'Barlow', sans-serif;
+            font-family: 'Inter', sans-serif;
             overflow-x: hidden;
         }
 
@@ -67,7 +67,7 @@
         }
 
         .nav-logo .brand {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 26px;
             letter-spacing: 2px;
             color: var(--white);
@@ -102,7 +102,7 @@
             color: #fff;
             border: none;
             padding: 10px 22px;
-            font-family: 'Barlow', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-size: 13px;
             font-weight: 700;
             letter-spacing: 1.5px;
@@ -113,7 +113,7 @@
         }
 
         .nav-cta:hover {
-            background: #e05510;
+            background: #003666;
             transform: scale(1.04);
         }
 
@@ -205,7 +205,7 @@
         }
 
         .hero-title {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: clamp(52px, 7vw, 96px);
             line-height: 0.95;
             letter-spacing: 2px;
@@ -218,8 +218,7 @@
         }
 
         .hero-title .line-outline {
-            -webkit-text-stroke: 1px rgba(0, 0, 0, 0.15);
-            color: transparent;
+            color: var(--white);
             display: block;
         }
 
@@ -254,7 +253,7 @@
         }
 
         .btn-primary:hover {
-            background: #d95a10;
+            background: #003666;
             transform: translateX(4px);
         }
 
@@ -289,7 +288,7 @@
         .stat-item {}
 
         .stat-num {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 42px;
             color: var(--orange);
             line-height: 1;
@@ -314,8 +313,8 @@
 
         .fan-container {
             position: relative;
-            width: 420px;
-            height: 420px;
+            width: 100%;
+            max-width: 600px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -500,7 +499,7 @@
         }
 
         .marquee-item {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 18px;
             letter-spacing: 3px;
             padding: 0 32px;
@@ -560,7 +559,7 @@
         }
 
         .section-title {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: clamp(40px, 5vw, 64px);
             line-height: 1;
             letter-spacing: 1px;
@@ -628,7 +627,7 @@
         }
 
         .product-num {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 64px;
             line-height: 1;
             -webkit-text-stroke: 1px var(--border);
@@ -660,7 +659,7 @@
         }
 
         .product-name {
-            font-family: 'Barlow Condensed', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 22px;
             font-weight: 700;
             letter-spacing: 1px;
@@ -759,7 +758,7 @@
         }
 
         .si-num {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 28px;
             color: var(--border);
             min-width: 44px;
@@ -829,7 +828,7 @@
         }
 
         .why-title {
-            font-family: 'Barlow Condensed', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 20px;
             font-weight: 700;
             text-transform: uppercase;
@@ -993,7 +992,7 @@
         }
 
         .cta-text h2 {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 48px;
             letter-spacing: 1px;
             color: #fff;
@@ -1047,7 +1046,7 @@
         }
 
         .footer-brand .brand-name {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Oswald', sans-serif;
             font-size: 30px;
             letter-spacing: 2px;
             margin-bottom: 8px;
