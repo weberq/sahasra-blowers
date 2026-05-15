@@ -1,0 +1,12 @@
+{
+  "name": "sahasra-blowers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sahasra Blowers — industrial blower fabrication workshop, Jeedimetla, Hyderabad. Static marketing site.",
+  "type": "module",
+  "scripts": {
+    "gallery": "node scripts/build-gallery.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "license": "UNLICENSED"
+}
