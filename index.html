@@ -29,8 +29,10 @@
   <!-- Preload hero -->
   <link rel="preload" as="image" href="assets/img/hero-blower-scale-1200.webp" type="image/webp" />
 
-  <!-- Favicon (simple SVG mark) -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231A2332'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' fill='%23FAFAF7' font-family='Georgia,serif' font-size='34' font-weight='600'%3ES%3C/text%3E%3C/svg%3E" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="256x256" href="assets/favicon-256.png" />
 
   <!-- Structured data: LocalBusiness -->
   <script type="application/ld+json">
@@ -43,6 +45,7 @@
     "url": "https://sahasra-blowers.weberq.in/",
     "telephone": "+91-86860-30709",
     "email": "mahenderreddyvenkatramulu@gmail.com",
+    "logo": "https://sahasra-blowers.weberq.in/assets/logo.png",
     "image": "https://sahasra-blowers.weberq.in/assets/img/hero-blower-scale-1200.jpg",
     "address": {
       "@type": "PostalAddress",
@@ -110,11 +113,7 @@
 <header class="nav" role="banner">
   <div class="container">
     <a class="brand" href="#" aria-label="Sahasra Blowers home">
-      <span class="brand-mark">S</span>
-      <span>
-        Sahasra Blowers
-        <small>Jeedimetla · Est. {{YEAR_ESTABLISHED}}</small>
-      </span>
+      <img src="assets/logo-300.png" alt="Sahasra Blowers — industrial blowers and ventilation, Jeedimetla, Hyderabad" width="220" height="68" fetchpriority="high" />
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
       <span></span>
@@ -521,9 +520,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="#">
-          <span class="brand-mark">S</span>
-          <span>Sahasra Blowers<small>Jeedimetla · Hyderabad</small></span>
+        <a class="brand" href="#" aria-label="Sahasra Blowers home">
+          <img src="assets/logo-light-300.png" alt="Sahasra Blowers — industrial blowers and ventilation, Jeedimetla, Hyderabad" width="240" height="74" loading="lazy" />
         </a>
         <p>Industrial blowers, exhaust systems and custom fabrication, built in Jeedimetla.</p>
       </div>
